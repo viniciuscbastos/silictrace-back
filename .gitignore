@@ -1,0 +1,32 @@
+# Ambientes virtuais
+env/
+venv/
+.venv/
+ENV/
+
+# Bytecode e cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Bases de dados locais SQLite
+database/*.sqlite3
+database/*.db
+*.sqlite3
+*.db
+!database/.gitkeep
+
+# Logs locais
+*.log
+
+# Configurações de IDEs e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Arquivos de ambiente locais
+.env
+.env.local

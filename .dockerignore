@@ -1,0 +1,27 @@
+# Ambientes virtuais locais
+env/
+venv/
+.venv/
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bancos de dados locais (montados via volume no docker-compose)
+database/*.sqlite3
+database/*.db
+*.sqlite3
+*.db
+
+# Controle de versão e metadados
+.git
+.gitignore
+
+# Configurações de IDE e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+
+# Logs locais
+*.log

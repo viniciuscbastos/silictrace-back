@@ -1,0 +1,13 @@
+# Framework Web e CORS
+flask==2.3.3
+flask-cors==4.0.0
+
+# Documentação OpenAPI / Swagger e Validação
+flask-openapi3==3.0.0
+pydantic>=2.4.0
+
+# Banco de dados e ORM
+SQLAlchemy==2.0.21
+
+# Requisições HTTP (API externa de CVE)
+requests==2.31.0
